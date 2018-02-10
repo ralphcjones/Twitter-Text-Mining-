@@ -9,10 +9,10 @@ library(RColorBrewer)
 library(tm)
 
 #credentials
-consumer_key <- "RuHfGRHzchC7W5x10Y3cJjqgJ"
-consumer_secret<- "JvHMs0JhenezvdVwYnj8EWx4AePvLgz3hR07PC5TWQ2T6hbWTW"
-access_token <- "18540295-cLB7RB6eHAeCF0EC5uYxmLusFByHhGh3XesiaVVQS"
-access_secret <- "qZt472VHf77BlCwUUD0RbFd3oDqoPWS2fseGSUd4uutsq"
+consumer_key <- 
+consumer_secret<- 
+access_token <- 
+access_secret <- 
 library (twitteR)
 #set up authenticate
 # choose yes for auto authentication or no otherwise
