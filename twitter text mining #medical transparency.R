@@ -33,7 +33,7 @@ df2 <- readRDS("mytweets.rds")
 #time to clean our data
 library(tm)
 newdata <- iconv(df2$text, "ASCII", "UTF-8", sub="")
-iconv()
+
 #extract text from the data frame build your own corpus(a corpus is a collection of text files)
 mydata <- Corpus(VectorSource(newdata))
 
